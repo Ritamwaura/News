@@ -35,7 +35,14 @@ Rita  Mwaura
           python3.7 manage.py server
           
   * Insert the API Key you received from News Api where <Your-Api-Key> is.
-To run the application, in your terminal:
+4 To run the application, in your terminal:
 
   $ chmod +x start.sh
   $ ./start.sh
+## Testing the application
+$ python3.7 manage.py tests
+## Technologies used 
+python 3.7
+flask
+## License
+MIT ©2019 Rita mwaura

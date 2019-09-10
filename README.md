@@ -12,3 +12,30 @@ Rita  Mwaura
 1 python3.7
 2 pip
 3 virtualenv
+## How to run the application 
+1 Creating the virtual environment
+
+  $ python3.7 -m venv --without-pip virtual
+  $ source virtual/bin/env
+  $ curl https://bootstrap.pypa.io/get-pip.py | python 
+2 Installing Flask and other Modules
+
+  $ python3.7 -m pip install Flask
+  $ python3.7 -m pip install Flask-Bootstrap
+  $ python3.7 -m pip install Flask-Script
+3 Setting up the API Key
+
+  To be able to gather article info from the News API you will need an API Key.
+  
+  * Visit https://newsapi.org/ and register for an API key.
+  * In the root directory of the project folder create a file: start.sh
+  * Insert the following info into it: 
+  
+          export NEWS_API_KEY='<Your-Api-Key>'
+          python3.7 manage.py server
+          
+  * Insert the API Key you received from News Api where <Your-Api-Key> is.
+To run the application, in your terminal:
+
+  $ chmod +x start.sh
+  $ ./start.sh

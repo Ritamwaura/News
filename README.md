@@ -8,3 +8,4 @@ Rita  Mwaura
 2 see all news article and when was created
 3 image description  and time news article was created
 4 click on the article and read  the whole article on the sources website
+## installation requirement

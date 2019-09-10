@@ -9,3 +9,6 @@ Rita  Mwaura
 3 image description  and time news article was created
 4 click on the article and read  the whole article on the sources website
 ## installation requirement
+1 python3.7
+2 pip
+3 virtualenv
